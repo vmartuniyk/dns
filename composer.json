@@ -1,0 +1,29 @@
+{
+    "name": "vmartuniyk/dns",
+    "description": "This library should allow us to get all DNS records for the specified domain name.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "volodimir\\Dns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "volodimir\\Dns\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Volodimir Martuniyk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
