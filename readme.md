@@ -27,7 +27,9 @@ use Vmartuniyk\Dns\Dns;
 
 $dns = new Dns();
 
-$dns->getAllDnsRecords('gmail.com'); // returns all available dns records
+$data = $dns->getAllDnsRecords('gmail.com'); // returns all available dns records
+
+print_r($data);
 
 ```
 
